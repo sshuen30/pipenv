@@ -10,7 +10,13 @@ pip3 install pipenv
 ```
 
 - If you see this message, this shows pipenv is saved in another folder which is not in the PATH
+
 ![Screenshot 2024-02-25 153711](https://github.com/sshuen30/pipenv/assets/40738215/f6d2e7a4-99f7-41fc-b0e6-f805ac50ce28)
+
+- To see your current path
+```bash
+echo $PATH
+```
 
 - Add the folder to PATH by running this command
 ```bash
